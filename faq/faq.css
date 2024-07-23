@@ -51,7 +51,7 @@
     margin-bottom: 20px;
     text-align: justify;
 }
-@media (max-width:330px) {
+@media (max-width:360px) {
     #navbar{
         height: 60px;
         width: 100%;

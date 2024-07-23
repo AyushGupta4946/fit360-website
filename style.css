@@ -654,7 +654,7 @@ footer {
     display: none;
 }
 
-@media  (max-width: 330px) {
+@media  (max-width: 360px) {
    
     #nav{
         display: none;
