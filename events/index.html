@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FitNambi</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="./event.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/7cc1870cb6.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="mobile-nav">
+
+        <div class="mobile-nav-box">
+            <img src="../assets/white-logo.png" alt="" id="menuIcon">
+            <button class="download-button" id="openModal">Get the App</button>
+            <button id="open-nav" class="open-nav"><i class="ri-menu-2-fill"></i></button>
+        </div>
+        <div id="nav-container" class="nav-container">
+            <nav>
+                <span id="close-menu" class="close-menu"><i class="ri-close-large-fill"></i></span>
+                <a href="../">Home</a>
+                <a href="../about/">About</a>
+                <a href="./">Events</a>
+                <a href="../contact/">Contact</a>
+                
+            </nav>
+        </div>
+    </div>
+    <nav id="navbar">
+      <div class="links">
+        <a href="../">
+
+            <img src="../assets/white-logo.png" alt="" />
+        </a>
+        <a class="hide-mobile" href="../">Home</a>
+        <a class="hide-mobile" href="../about/">About</a>
+        <a class="hide-mobile" href="./">Events</a>
+        <a class="hide-mobile" href="../contact/">Contact</a>
+      </div>
+
+      <button class="download-button" id="openModalNav">Get the App</button>
+    </nav>
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span id="closeModal">
+
+                <i class="ri-close-large-fill"></i>
+            </span>
+          
+            <h2>Woah! The FitNambi app is wayyy too cool! 😎</h2>
+            <p>Book easily, find players & double down on the fun.</p>
+            <img src="../assets/qr.jpg" alt="">
+            <p>Scan the QR code to download the app.</p>
+            
+        </div>
+    </div>    
+    
+    <div class="container">
+        <img src="../assets/banner.jpg" alt="" class="banner-img">
+        <div class="content">
+            <div class="left-content">
+                <h1 class="tournamentName">FITNAMBI <span>BADMNINTON</span> TOURNAMENT</h1>
+                <p class="tournamentDescription">Experience the thrill of high speed rallies and powerful smashes at our opening Badminton Tournament.</p>
+
+                <div class="location-box">
+                    <i class="ri-map-pin-2-line"></i>
+                    <p>VASANT KUNJ, D3 DDA SPORTS COMPLEX DELHI</p>
+                </div>
+                <div class="flex">
+
+                    <div class="price-box">
+                        <h2>Entry Fee</h2>
+                        <p>Singles : <span>₹ 400</span></p>
+                        <p>Doubles : <span>₹ 650</span></p>
+                    </div>
+                    <div class="date">
+                        <h2><i class="ri-calendar-2-line"></i> Date</h2>
+                        <p>24-Aug-2024</p>
+                       </div>
+                </div>
+                <div class="category-box">
+                   <div class="sports">
+                    <p>Sports</p>
+                    <div>
+                        <img src="../assets/shuttle.png" alt="">
+                        <p>Badminton</p>
+                    </div>
+                   </div>
+                   
+                </div>
+                <div class="player">
+                    <h2>Player category</h2>
+                    <p> Singles</p>
+                    <p> Doubles</p>
+                    <p> Mixed</p>
+                   </div>
+                   
+            </div>
+            <div class="right-content">
+                <p class="title">Interested 🤩</p>
+                <p class="title">Enter your details and we will get back to you.</p>
+                <form action="" id="contact-form">
+
+                    <div class="inputBox">
+                        <h3>Name</h3>
+                        <input type="text" id="name" name="name" placeholder="Enter your name" required>                    </div>
+                    <div class="inputBox">
+                        <h3>Email</h3>
+                        <input type="email" id="email" name="email" required placeholder="Enter your email">
+                    </div>
+                    <div class="inputBox">
+                        <h3>Mobile</h3>
+                        <input type="number" id="number" placeholder="Enter mobile number" required>
+                    </div>
+                    <button type="submit" id="submit">I am Interested</button>
+                </form>
+            </div>
+        </div>
+        
+        <div class="sponsors-container">
+            <div class="sponsorHeading">
+                <h2>OUR TOURNAMENT <span>SPONSORS</span></h2>
+            </div>
+            
+            <!-- slider sponsors -->
+            <div class="sponsor-logos">
+                <div class="sponsors-slides">
+                    <img src="../assets/nike.jpg" alt="">
+                    <img src="../assets/orra-white.png" alt="">
+                    <img src="../assets/addidas.webp" alt="">
+                    <img src="../assets/jordan.png" alt="">
+                    <img src="../assets/puma.png" alt="">
+                    <img src="../assets/nb.png" alt="">
+                </div>
+                <div class="sponsors-slides">
+                    <img src="../assets/nike.jpg" alt="">
+                    <img src="../assets/orra-white.png" alt="">
+                    <img src="../assets/addidas.webp" alt="">
+                    <img src="../assets/jordan.png" alt="">
+                    <img src="../assets/puma.png" alt="">
+                    <img src="../assets/nb.png" alt="">
+                </div>
+            </div>
+            <div class="liability-text">
+                <p>These logos are for representational purposes only. Actual list of sponsors will be updated soon</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-content-box">
+
+            <div class="left-footer">
+                <img src="../assets/white-logo.png" alt="">
+                <p>Be fit with FitNambi</p>
+                <button class="download-button-footer" id="openModalFooter">Get the App
+                    <i class="ri-google-play-line"></i>
+                    <i class="ri-apple-line"></i>
+                </button>
+            </div>
+            <div class="middle-footer">
+                <a href="../faq/">FAQs</a>
+                <a href="../privacyPolicy/">Privacy Policy</a>
+                <a href="../termsAndCondition/">Terms of Services</a>
+
+            </div>
+            <div class="right-footer">
+                <a href="https://www.instagram.com/fitnambisports/
+"><i class="ri-instagram-fill"></i></a>
+                <a href="https://x.com/fitnambi "><i class="ri-twitter-x-line"></i></a>
+                <a href="https://www.linkedin.com/in/fitnambi/
+                "><i class="ri-linkedin-box-fill"></i></a>
+                <a href="https://www.youtube.com/@FitNambiSports
+                "><i class="ri-youtube-fill"></i></a>
+            </div>
+        </div>
+        <div class="copyright-container">
+            <p>
+                <span><i class="ri-copyright-line"></i></span>
+                2024 FitNambi Sports. All Rights Reserved.
+            </p>
+        </div>
+    </footer>
+
+    
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+      integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script type="module" src="./script.js"></script>
+    <script src="../script.js"></script>
+  </body>
+</html>

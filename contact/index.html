@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FitNambi</title>
+  <link rel="stylesheet" href="./contact.css">
+  <link rel="stylesheet" href="../style.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+  <script src="https://kit.fontawesome.com/7cc1870cb6.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="mobile-nav">
+
+    <div class="mobile-nav-box">
+        <img src="../assets/white-logo.png" alt="" id="menuIcon">
+        <button class="download-button" id="openModal">Get the App</button>
+            <button id="open-nav" class="open-nav"><i class="ri-menu-2-fill"></i></button>
+    </div>
+    <div id="nav-container" class="nav-container">
+        <nav>
+            <span id="close-menu" class="close-menu"><i class="ri-close-large-fill"></i></span>
+            <a href="../">Home</a>
+            <a href="../about/">About</a>
+            <a href="../events/">Events</a>
+            <a href="./">Contact</a>
+            
+        </nav>
+    </div>
+</div>
+  <nav id="navbar">
+    <div class="links">
+      <a href="../">
+
+        <img src="../assets/white-logo.png" alt="" />
+      </a>
+      <a class="hide-mobile" href="../">Home</a>
+      <a class="hide-mobile" href="../about/">About</a>
+      <a class="hide-mobile" href="../events/">Events</a>
+      <a class="hide-mobile" href="./">Contact</a>
+    </div>
+
+    <button class="download-button" id="openModalNav">Get the App</button>
+  </nav>
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span id="closeModal">
+
+        <i class="ri-close-large-fill"></i>
+      </span>
+
+      <h2>Woah! The FitNambi app is wayyy too cool! 😎</h2>
+      <p>Book easily, find players & double down on the fun.</p>
+      <img src="../assets/qr.jpg" alt="">
+      <p>Scan the QR code to download the app.</p>
+
+    </div>
+  </div>
+  <div class="container">
+    <div class="content">
+      <div class="left">
+        <img src="../assets/contact.png" alt="" class="contact">
+        <h1>Let's Talk</h1>
+        <p>info@fitnambi.com</p>
+      </div>
+      <div class="right">
+        <form action="" id="contact-form">
+          <div class="inputBox">
+            <h3>Name</h3>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+          </div>
+          <div class="inputBox">
+            <h3>Email</h3>
+            <input type="email" id="email" name="email" required placeholder="Enter your email">
+          </div>
+          <div class="inputBox">
+            <h3>Message</h3>
+            <textarea id="message" name="message" required placeholder="Enter your message" rows="6"></textarea>
+          </div>
+          <button type="submit" class="submit-button" id="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <footer>
+    <div class="footer-content-box">
+
+      <div class="left-footer">
+        <img src="../assets/white-logo.png" alt="">
+        <p>Be fit with FitNambi</p>
+        <button class="download-button-footer" id="openModalFooter">Get the App
+          <i class="ri-google-play-line"></i>
+          <i class="ri-apple-line"></i>
+        </button>
+      </div>
+      <div class="middle-footer">
+        <a href="../faq/">FAQs</a>
+        <a href="../privacyPolicy/">Privacy Policy</a>
+        <a href="../termsAndCondition/">Terms of Services</a>
+
+      </div>
+      <div class="right-footer">
+        <a href="https://www.instagram.com/fitnambisports/
+"><i class="ri-instagram-fill"></i></a>
+        <a href="https://x.com/fitnambi "><i class="ri-twitter-x-line"></i></a>
+        <a href="https://www.linkedin.com/in/fitnambi/
+                "><i class="ri-linkedin-box-fill"></i></a>
+        <a href="https://www.youtube.com/@FitNambiSports
+                "><i class="ri-youtube-fill"></i></a>
+      </div>
+    </div>
+    <div class="copyright-container">
+      <p>
+        <span><i class="ri-copyright-line"></i></span>
+        2024 FitNambi Sports. All Rights Reserved.
+      </p>
+    </div>
+  </footer>
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+    integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+    integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.1.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/9.1.2/firebase-database.js"></script>
+
+  <script src="../script.js"></script>
+  <script type="module" src="./script.js"></script>
+
+  
+</body>
+
+</html>

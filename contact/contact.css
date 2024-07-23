@@ -1,0 +1,161 @@
+#navbar{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 80px;
+    gap: 50px;
+    position: fixed;
+    z-index: 11;
+    background-color: #000;
+}
+
+#navbar img {
+    height: 70px;
+    width: 130px;
+}
+
+#navbar a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+@media (max-width: 330px) {
+    #navbar {
+      display: none;
+    }
+    #modal{
+      left: 0;
+      top: 0%;
+      width: 100%;
+      height: 100%;
+     padding-left: 15%;
+     padding-top: 30%;
+  
+  }
+  
+  .modal-content{
+          padding: 10px;
+          height: 480px;
+         
+  }
+  .modal-content i{
+     
+      top: 15px;
+  }
+  .modal-content h2{
+      font-size: 18px;
+      color: #000;
+      margin: 30px 0 20px 0;
+  }
+    .container {
+      padding: 50px 10px; /* Adjust padding for smaller screens */
+      background-color: black;
+    }
+    .content {
+      flex-direction: column;
+      align-items: center;
+    }
+    .left h1 {
+      font-size: 30px;
+      text-align: center;
+      margin-top: 20px;
+    }
+    .left p {
+      font-size: 20px;
+      text-align: center;
+    }
+    .right {
+      margin-right: 100px; /* Reset margin for smaller screens */
+    }
+    .inputBox h3 {
+      font-size: 18px;
+    }
+    .inputBox input,
+    .inputBox textarea {
+      width: 100%; /* Full width for inputs */
+      max-width: 250px; /* Adjust max-width as needed */
+    }
+    .submit-button {
+      width: 100%;
+      max-width: 240px;
+      margin-top: 20px;
+    }
+  }
+  
+
+.container{
+    background-color: black;
+    width: 100%;
+    min-height: 100vh;
+    padding: 110px 80px;
+}
+
+.contact{
+    width: 150px;
+    height: 100px;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   gap: 30px;
+}
+
+.left h1{
+    font-size: 35px;
+}
+
+.left p{
+    color: #ff005b;
+    font-size: 27px;
+    padding-top: 40px;
+}
+
+.right{
+    margin-left: 100px  ;
+}
+
+
+.inputBox{
+    margin-top: 30px;
+}
+
+.inputBox h3{
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.inputBox input{
+    border:1px solid lightgray;
+    background-color: transparent;
+    padding: 7px 20px;
+    width: 400px;
+    border-radius: 10px;
+}
+.inputBox textarea{
+    border:1px solid lightgray;
+    background-color: transparent;
+    padding: 7px 20px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+.submit-button{
+    background-color: #ff005b;
+    padding: 10px 20px;
+    color: #fff;
+    border: 1px solid white;
+    outline: none;
+    cursor: pointer;
+    border-radius: 15px;
+    margin-top: 30px;
+    width: 400px;
+    font-weight: bold;
+    font-size: 16px;
+}

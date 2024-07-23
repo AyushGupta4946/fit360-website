@@ -1,0 +1,262 @@
+#navbar{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 80px;
+    gap: 50px;
+    position: fixed;
+    z-index: 11;
+    background-color: #000;
+    top: 0;
+}
+
+#navbar img {
+    height: 70px;
+    width: 130px;
+}
+
+#navbar a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+
+.container{
+    background-color: black;
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 110px 80px;
+}
+
+.page-title-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-title-container h1{
+    font-size: 30px;
+    text-transform: uppercase;
+    border-bottom: 3px solid #ff005b;
+}
+
+.page-title-container h1 span{
+    color: #ff005b;
+}
+
+.content-container{
+    margin-top: 30px;
+}
+
+.content-container h1{
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    color: #ff005b;
+}
+
+.content-container p{
+    font-size: 18px;
+    text-align: justify;
+}
+
+.misson-container{
+    margin-top: 40px;
+}
+
+.misson-container span{
+    background-color: #ff005b;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;margin-bottom: 20px;
+}
+
+.misson-container span i{
+    font-size: 30px;
+}
+
+.misson-container h1{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 20px ;
+    margin-top: 50px ;
+    color: #ff005b;
+}
+.misson-container p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.missons{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 60px;
+}
+
+.box{
+    flex: 1;
+    padding:15px 25px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    height: 200px;
+}
+
+.box:hover{
+    transform: translateY(-10px);
+}
+
+
+
+.box h3{
+    color: #ff005b;
+    font-size: 23px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.box p{
+    font-size: 17px;
+}
+
+.content-container p span{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.offer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.footer-text{
+    color: #ccc;
+    margin: 60px 0;
+    font-size: 20px;
+}
+
+@media (max-width:330px) {
+    #navbar{
+        height: 60px;
+        width: 100%;
+        padding: 10px 15px;
+    }
+    
+    #navbar img {
+        height: 40px;
+        width: 70px;
+    }
+    
+    #navbar .hide-mobile {
+        display: none;
+    }
+    .container{
+        background-color: black;
+        width: 100%;
+        min-height: 100vh;
+        padding: 100px 20px;
+    }
+    
+    #modal{
+        left: 0;
+        top: 0%;
+        width: 100%;
+        height: 100%;
+       padding-left: 15%;
+       padding-top: 30%;
+    
+    }
+    
+    .modal-content{
+            padding: 10px;
+            height: 480px;
+           
+    }
+    .modal-content i{
+       
+        top: 15px;
+    }
+    .modal-content h2{
+        font-size: 18px;
+        color: #000;
+        margin: 30px 0 20px 0;
+    }
+    
+    .page-title-container h1{
+        font-size: 24px;
+    }
+    
+    
+   
+    
+    .content-container h1{
+        font-size: 20px;
+    }
+    
+    .content-container p{
+        font-size: 15px;
+    }
+    .misson-container{
+        margin: 0;
+    }
+    .misson-container h1{
+        font-size: 22px;
+    }
+    .misson-container p{
+        font-size: 15px;
+    }
+    
+    .missons{
+        display: flex;
+        flex-direction: column;
+       
+    }
+    
+    
+    
+   
+    
+    .box{
+        height: 300px;
+        padding: 10px 0;
+    }
+    
+    .box h3{
+        color: #ff005b;
+        font-size: 17px;
+        font-weight: 500;
+        margin-bottom: 20px;
+    }
+    
+    .box p{
+        font-size: 14px;
+    }
+    
+    .content-container p span{
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    .offer{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        margin-top: 50px;
+    }
+    
+    .footer-text{
+        color: #ccc;
+        margin: 20px 0;
+        font-size: 15px;
+    }
+    
+}

@@ -1,0 +1,418 @@
+#navbar{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 80px;
+    gap: 50px;
+    position: fixed;
+    z-index: 11;
+    background-color: #000;
+}
+
+#navbar img {
+    height: 70px;
+    width: 130px;
+}
+
+#navbar a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+@media (max-width:330px) {
+    #navbar{
+        display: none;
+    }
+
+    #modal{
+        left: 0;
+        top: 0%;
+        width: 100%;
+        height: 100%;
+       padding-left: 15%;
+       padding-top: 30%;
+    
+    }
+    
+    .modal-content{
+            padding: 10px;
+            height: 480px;
+           
+    }
+    .modal-content i{
+       
+        top: 15px;
+    }
+    .modal-content h2{
+        font-size: 18px;
+        color: #000;
+        margin: 30px 0 20px 0;
+    }
+    .container{
+        padding: 0;
+        background-color: #000;
+    }
+    .banner-img{
+        margin-top: 80px;
+        height: 30vh;
+        width: 100%;
+        object-fit: contain;
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 15px;
+    }
+    .left-content{
+        flex:1;
+    }
+    .tournamentName{
+        font-size: 22px;
+    }
+    .tournamentName span{
+        color: #ff005b;
+    }
+    .tournamentDescription{
+        font-size: 14px;
+        font-weight: 400;
+        padding: 10px 0;
+    }
+    .location-box{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding-top: 10px;
+    }
+    .location-box i{
+        font-size: 13px;
+        color: #ff005b;
+    }
+    .location-box p{
+        font-size: 13px;
+        font-weight: 400;
+        padding-bottom: 10px;
+    }
+    .price-box{
+        padding-top: 10px;
+    }
+    .price-box h2{
+        font-size: 21px;
+    }
+    .price-box p{
+        font-size: 17px;
+        color: slategray;
+        padding-top: 10px;
+    }
+    
+    .price-box p span{
+        font-weight: bolder;
+    }
+    
+    .date{
+        margin: 20px 0;
+    }
+    
+    .date h2{
+        margin-bottom: 10px;
+    }
+    .date p{
+        font-size: 17px;
+    }
+    .category-box{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+   
+    
+    .sports p{
+        font-size: 22px;
+        font-weight: bolder;
+    }
+    
+    .sports div{
+        display: flex;
+        align-items: center;
+        gap:10;
+        margin-top: 10px;
+    }
+    
+    .sports div img{
+        width: 40px;
+        height: 40px;
+    }
+    
+    .sports div p{
+        font-weight: 400;
+        font-size: 17px;
+
+    }
+    
+    .player{
+        margin-top: 20px;
+    }
+    .player p{
+        margin-top: 15px;
+        font-size: 17px;
+
+    }
+    
+    .date{
+        margin-top: 15px;
+    }
+    
+    .date h2{
+        font-size: 22px;
+    }
+    
+    .right-content .title{
+        font-size: 22px;
+        font-weight: 600;
+    }
+    
+    .inputBox{
+        margin: 30px 15px;
+    }
+    
+    .inputBox h3{
+        font-weight: 500;
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    
+    .inputBox input{
+        border:1px solid lightgray;
+        background-color: transparent;
+        padding: 7px 20px;
+        width: 100%;
+        border-radius: 10px;
+    }
+    
+    .right-content button{
+        padding: 10px 20px;
+        width: 100%;
+        background-color: #ff005b;
+        margin: 40px 0;
+        border-radius: 15px;
+        border: 1px solid white;
+        cursor: pointer;
+        font-size: 20px;
+    }
+    
+    .liability-text p{
+        text-align: center;
+        font-size: 10px;
+        margin-top: 60px;
+        padding: 0 10px;
+    }
+    .sponsorHeading h2{
+       font-size: 23px;
+        padding: 0px 10px;
+        text-align: center;
+    }
+    .sponsorHeading h2 span{
+        color: #ff005b;
+    }
+}
+
+@media (min-width:331px) {
+    .container{
+        padding: 90px 0;
+        background-color: #000;
+        overflow: hidden;
+    }
+
+.banner-img{
+    width: 100vw;
+    height: 100vh;
+}
+.content{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    padding: 30px 80px;
+}
+.left-content{
+    flex:1.5;
+    height: 500px;
+}
+.right-content{
+    flex:1;
+    height: 500px;
+}
+.tournamentName{
+    font-size: 30px;
+}
+
+.tournamentName span{
+    color: #ff005b;
+}
+
+.tournamentDescription{
+    font-size: 18px;
+    font-weight: 500;
+    width: 90%;
+    padding-top: 15px;
+}
+.location-box{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-top: 20px;
+}
+
+.location-box i{
+    font-size: 19px;
+    color: slategray;
+}
+.location-box p{
+    font-size: 19px;
+    color: slategray;
+    font-weight: 600;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    gap: 200px;
+}
+
+.price-box{
+    padding-top: 20px;
+}
+.price-box p{
+    font-size: 20px;
+    color: slategray;
+    padding-top: 10px;
+}
+
+.price-box p span{
+    font-weight: bolder;
+}
+
+.date{
+    margin-right: 20px;
+}
+
+.date h2{
+    margin-bottom: 20px;
+}
+.date p{
+    font-size: 20px;
+}
+
+.category-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sports{
+    padding-top: 30px;
+}
+
+.sports p{
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.sports div{
+    display: flex;
+    align-items: center;
+    gap:10;
+    margin-top: 15px;
+}
+
+.sports div img{
+    width: 40px;
+    height: 40px;
+}
+
+.sports div p{
+    font-weight: 400;
+}
+
+.player{
+    margin-top: 20px;
+}
+.player p{
+    margin-top: 15px;
+}
+
+.date{
+    margin-top: 15px;
+}
+
+.date h2{
+    font-size: 22px;
+}
+
+.right-content .title{
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.inputBox{
+    margin-top: 30px;
+}
+
+.inputBox h3{
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.inputBox input{
+    border:1px solid lightgray;
+    background-color: transparent;
+    padding: 7px 20px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.right-content button{
+    padding: 10px 20px;
+    width: 100%;
+    background-color: #ff005b;
+    margin: 40px 0;
+    border-radius: 15px;
+    border: 1px solid white;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.liability-text p{
+    text-align: center;
+    font-size: 10px;
+    margin-top: 60px;
+}
+.sponsorHeading h2{
+    font-size: 50px;
+     padding: 0px 10px;
+     text-align: center;
+ }
+ .sponsorHeading h2 span{
+     color: #ff005b;
+ }
+}
+
+/* .container
+
+.banner-img{
+    width: 100vw;
+    height: 100vh;
+}
+.content{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 30px 80px;
+}
+
+ */
